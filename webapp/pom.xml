@@ -5,15 +5,15 @@
 
   <parent>
     <groupId>com.example.maven-project</groupId>
-    <artifactId>project17</artifactId>
+    <artifactId>maven-project</artifactId>
     <version>1.0-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <artifactId>gaga</artifactId>
+  <artifactId>project17</artifactId>
   <packaging>war</packaging>
-  <name>gaga</name>
-  <description>gaga.</description>
+  <name>project17</name>
+  <description>project17.</description>
 
   <build>
     <finalName>${project.artifactId}</finalName>
